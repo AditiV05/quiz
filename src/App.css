@@ -1,0 +1,111 @@
+Body {
+  background-color: #92c7cf;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+}
+
+.play {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  width: 100%;
+}
+
+.container {
+  height: 80vh;
+  width: 80vw;
+  background-color: white;
+}
+
+#text1 {
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+#text2 {
+  color: black;
+  padding-left: 3%;
+}
+
+#text3 {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.container3 {
+  border-radius: 20px;
+  width: 60%;
+  margin: auto;
+  height: 20%;
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 40px;
+  grid-template-areas:
+    "one two "
+    "three four";
+}
+.container3 > div {
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5%;
+  gap: 20px;
+  height: 20px;
+}
+
+.sqaure {
+  height: 45vh;
+  width: 50vw;
+  background-color: white;
+}
+
+h3 {
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 4%;
+}
+
+h2 {
+  color: blue;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  color: black;
+  margin-left: 5%;
+}
+
+.square2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  height: 20px;
+}
